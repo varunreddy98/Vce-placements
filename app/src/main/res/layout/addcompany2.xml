@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7188f1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/details_rounds"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="60dp"
+            android:background="#ffffff"
+            android:height="110dp"
+            android:hint="Details of Interview Rounds"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/other_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:height="70dp"
+            android:hint="Other details(Eligibility)"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/package1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:hint="Average package"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/cgpa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:hint="Min. Cgpa"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="@color/input_login_hint" />
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#F52887"
+            android:text="Submit"
+            android:textColor="@color/white" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_textview"
+                android:layout_marginLeft="140dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_textview"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

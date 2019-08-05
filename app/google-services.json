@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "499709047415",
+    "firebase_url": "https://phone-3a5c9.firebaseio.com",
+    "project_id": "phone-3a5c9",
+    "storage_bucket": "phone-3a5c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499709047415:android:cfa99804671bf4c6",
+        "android_client_info": {
+          "package_name": "com.example.varunsai.vce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499709047415-b086q3r056mkp5q72h9k6opu16ikvut6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.varunsai.vce",
+            "certificate_hash": "162cee579571bce37ac9537cb4d07ac74b12fe87"
+          }
+        },
+        {
+          "client_id": "499709047415-cv44pr134th3h7ktma52qav21inqpc6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.varunsai.vce",
+            "certificate_hash": "3dfc7ee3aed50e36aa7598f3d298011fa793c4a3"
+          }
+        },
+        {
+          "client_id": "499709047415-hr6l2imm54gb3aj8ofs94m03hsoc7ms9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBb4JbCwvrtOPom7T037cJiwKQF3t8ouI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499709047415-hr6l2imm54gb3aj8ofs94m03hsoc7ms9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

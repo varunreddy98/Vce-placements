@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Profile"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp" />
+
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/name"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Name :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/viewname"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/rno"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Roll no :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewrno"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/gmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@android:color/black"
+                android:text="Gmail :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewgmail"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/phnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@android:color/black"
+                android:text="Phone number :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewphnum"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/cgpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@android:color/black"
+                android:text="CGPA :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewcgpa"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/aclonica"
+                android:text="Age :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewage"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Gender :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewgender"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Languages known :"
+                android:textSize="17dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/viewlang"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <RelativeLayout
+                android:layout_marginTop="60dp"
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="10dp"
+                tools:ignore="RtlCompat">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            <Button
+                android:id="@+id/download"
+                android:text="download"
+                android:background="#f17575"
+                android:textSize="15sp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:layout_marginStart="80dp"
+                android:onClick="clicktoselect"
+                />
+
+                    <Button
+                        android:id="@+id/selected"
+                        android:text="select"
+                        android:background="#f17575"
+                        android:textSize="15sp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:layout_marginStart="80dp"
+                        android:onClick="clicktoselect"
+                         />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

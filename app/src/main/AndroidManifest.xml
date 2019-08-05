@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.varunsai.vce">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vce"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".inform" />
+        <activity android:name=".inform2" />
+        <activity
+            android:name=".Inter"
+            android:label="@string/title_activity_inter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".addcompany1" />
+        <activity android:name=".addcompany2" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".company_selection" />
+        <activity android:name=".company_students" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Applied" />
+        <activity
+            android:name=".EditProfile"
+            android:label="@string/title_activity_edit_profile" />
+        <activity android:name=".StudentHome" />
+        <activity
+            android:name=".Company"
+            android:label="@string/title_activity_company" />
+        <activity android:name=".VerifyHr" />
+        <activity android:name=".Activity1" />
+        <activity android:name=".Student1"></activity>
+    </application>
+
+</manifest>

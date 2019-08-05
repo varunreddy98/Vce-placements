@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".company_selection">
+    <LinearLayout
+         android:orientation="vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F52887"
+        android:layout_marginLeft="60dp"
+        android:text="Applied candidates"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_height="wrap_content"
+        android:background="#F52887"
+        android:text="selected candidates"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="324dp" />
+             </LinearLayout>
+</android.support.constraint.ConstraintLayout>

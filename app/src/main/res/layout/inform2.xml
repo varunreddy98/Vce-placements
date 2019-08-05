@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7188f1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"
+            android:clickable="true"
+            android:background="@drawable/upload"
+            android:layout_marginLeft="60dp"
+            android:layout_x="13dp"
+            android:layout_y="112dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textColor="#101010"
+            android:text="profile pic"
+            />
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:hint="Code"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="@color/input_login_hint" />
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="19sp"
+            android:background="#F52887"
+            android:textAlignment="center"
+            android:text="Next"
+            android:textColor="@color/white" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_textview"
+                android:layout_marginLeft="120dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_textview"
+                android:layout_marginLeft="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

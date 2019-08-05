@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/companydetails"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:padding="17dp"
+        android:text="Hello"
+        android:textColor="#00D"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/apply"
+        android:layout_marginTop="101dp"
+        android:background="#3632a0"
+        android:onClick="viewStudents"
+        android:text="View"
+        android:textColor="#fff"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="90dp"
+        android:layout_marginTop="31dp"
+        android:background="#3632a0"
+        android:onClick="applyJob"
+        android:text="apply"
+        android:textColor="#fff"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>
